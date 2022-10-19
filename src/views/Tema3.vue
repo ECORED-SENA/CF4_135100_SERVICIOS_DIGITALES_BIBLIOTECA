@@ -86,7 +86,7 @@
             .col-md-4(style="place-self:center")
               figure.text-center
                 img(src='@/assets/curso/tema3/12.png' style="max-width:180px;display:inline")
-        .py-4.py-md-5(titulo="Grupos focales:" :icono="require('@/assets/curso/tema3/8.png')")
+        .py-4.py-md-5(titulo="Grupos focales" :icono="require('@/assets/curso/tema3/8.png')")
           .row.p-4
             .col-md-6.mb-4.mb-md-0(style="place-self:center")
               p #[strong Grupos focales:] se utiliza con frecuencia dentro de la comunidad como juntas de acción comunal, educativas, religiosas y demás.
@@ -162,7 +162,7 @@
           SlyderA(tipo="b" style="background-color:#FFF7EF;border-radius:25px;")
             .row.p-5
               h4(style="color:#FD9827;") Por su naturaleza
-              p.mt-4 Estos informes usan un lenguaje técnico o científico para responder a una investigación básica o especializada, divulgando la información a un sector especifico o general.
+              p.mt-4 Estos informes usan un lenguaje técnico o científico para responder a una investigación básica o especializada, divulgando la información a un sector específico o general.
             .row.p-5
               h4(style="color:#FD9827;") Por su contenido
               ul.fa-ul.mt-4
@@ -189,7 +189,7 @@
               p.mt-4 Son los que rinden cuentas del estado general de la biblioteca o el manejo actual de sus recursos: financieros, personal, infraestructura, tecnológico, teniendo en cuenta el marco legal.
             .row.p-5
               h4(style="color:#FD9827;") Sectoriales
-              p.mt-4 Brindan información del estado de la comunidad, preferencias de los usuarios y actualidad general, sirven como insumo para generar estrategias de marketing, entre otras. 
+              p.mt-4 Brindan información del estado de la comunidad, preferencias de los usuarios y actualidad general, sirven como insumo para generar estrategias de #[em marketing], entre otras. 
         .col-lg-6(style="place-self:center;")
           figure
             img(src="@/assets/curso/tema3/19.png" data-aos="fade-right")

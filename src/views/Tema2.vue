@@ -226,7 +226,7 @@
             figure
               img(src="@/assets/curso/tema2/13.png" data-aos="fade-right")
           .col(style="place-self:center")
-            p.mb-0(data-aos="fade-up") Entre los medios digitales y herramientas informáticas más usados en la actualidad, se pueden mencionar el internet, los diversos dispositivos electrónicos de todas las gamas, portales web, portafolios en línea, aplicaciones, bibliotecas digitales, realidad virtual y muchos más…
+            p.mb-0(data-aos="fade-up") Entre los medios digitales y herramientas informáticas más usados en la actualidad, se pueden mencionar el internet, los diversos dispositivos electrónicos de todas las gamas, portales #[em web], portafolios en línea, aplicaciones, bibliotecas digitales, realidad virtual y muchos más…
       .col-lg-5(style="place-self:center")
         figure
           img(src="@/assets/curso/tema2/12.png" data-aos="fade-left")
@@ -251,7 +251,7 @@
           .row.justify-content-center.mb-3
             .col-8.m-auto.text-center
               img(src='@/assets/curso/tema2/16.png')
-          h5.text-center.text-center.text-white Portales web
+          h5.text-center.text-center.text-white Portales #[em web]
           p.text-center.text-center.text-white El usuario puede consultar información de la biblioteca y sus novedades.
         .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas
           .row.justify-content-center.mb-3

@@ -5,14 +5,14 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Marketing en la red
+      h1 #[em Marketing] en la red
 
     .row
       .col-auto.d-md-block.d-none(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema1/1.png" data-aos="fade-right")
       .col(style="place-self:center;")
-        p.mb-0(data-aos="fade-up") Las acciones que desarrollan las organizaciones para la realización de la gestión de promoción, difusión y dar a conocer sus actividades por medio de ambientes virtuales, se llama marketing digital. Para ello, utilizan herramientas y aplicaciones que brinda la web 2.0 que dan facilidades para compartir los portafolios de productos y servicios, por medio de las tecnologías de la información y redes sociales.
+        p.mb-0(data-aos="fade-up") Las acciones que desarrollan las organizaciones para la realización de la gestión de promoción, difusión y dar a conocer sus actividades por medio de ambientes virtuales, se llama #[em marketing] digital. Para ello, utilizan herramientas y aplicaciones que brinda la #[em web] 2.0 que dan facilidades para compartir los portafolios de productos y servicios, por medio de las tecnologías de la información y redes sociales.
 
     .tarjeta.color-primario.p-3.mt-4.col-md-10.m-auto(style="background-color:#FFF0DE;")
       .row.justify-content-around.align-items-center
@@ -22,14 +22,14 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h5.mb-3(style="color:#785549;" data-aos="fade-up") ¡Importante! 
-              p.mb-0(data-aos="fade-up" style="color:#12263F;") Así mismo, el marketing digital permite recibir retroalimentación de los clientes o usuarios, ya que posibilita interactuar con ellos en cualquier momento, sin importar su localización.
+              p.mb-0(data-aos="fade-up" style="color:#12263F;") Así mismo, el #[em(style="color:#12263F;") marketing] digital permite recibir retroalimentación de los clientes o usuarios, ya que posibilita interactuar con ellos en cualquier momento, sin importar su localización.
 
     Separador.mt-5
 
     .titulo-segundo
       h2#t_1_1 1.1  Redes sociales
 
-    p(data-aos="fade-up") Las páginas web o aplicativos que sirven como canal de comunicación e interacción entre personas de forma virtual se denominan, comúnmente, #[strong redes sociales].
+    p(data-aos="fade-up") Las páginas #[em web] o aplicativos que sirven como canal de comunicación e interacción entre personas de forma virtual se denominan, comúnmente, #[strong redes sociales].
 
     figure.mt-5.col-md-8.m-auto
       img(src="@/assets/curso/tema1/3.png" data-aos="zoom-in-up")
@@ -42,13 +42,13 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h5.text-white(data-aos="fade-up") ¿ Para qué sirven ?
-              p.mb-0.text-white.mt-3(data-aos="fade-up") Las redes sociales son un instrumento en el marketing digital, que sirve para la promoción de las empresas, sus productos o servicios. Es por ello que se requiere conocerlas y estar familiarizados con ellas..
+              p.mb-0.text-white.mt-3(data-aos="fade-up") Las redes sociales son un instrumento en el #[em marketing] digital, que sirve para la promoción de las empresas, sus productos o servicios. Es por ello que se requiere conocerlas y estar familiarizados con ellas..
 
-    p.mt-5(data-aos="fade-up") En la siguiente tabla, se exponen las redes sociales más comunes y frecuentemente utilizadas; se invita a conocer más sobre sus usos en el marketing.
+    p.mt-5(data-aos="fade-up") En la siguiente tabla, se exponen las redes sociales más comunes y frecuentemente utilizadas; se invita a conocer más sobre sus usos en el #[em marketing].
 
     .titulo-sexto.color-primario.mt-5
       h5 Figura 1.
-      span  Redes sociales y su uso en marketing digital
+      span  Redes sociales y su uso en #[em marketing] digital
 
     .tabla-a.color-acento-botones.mt-5.col-lg-10.m-auto
       table
@@ -56,7 +56,7 @@
           tr
             th.p-4.text-center(style="background-color:#EBC9B1;border:0;width:25%;") Red social
             th.p-4.text-center(style="background-color:#DCD4D2;border:0;") Características
-            th.p-4.text-center(style="background-color:#EFEFEF;border:0;") Uso en marketing
+            th.p-4.text-center(style="background-color:#EFEFEF;border:0;") Uso en #[em marketing]
         tbody
           tr
             td.h5.p-4(style="background-color:#FFF3EA;border:0;border-bottom:1px #D6CAC2 solid;") Facebook
@@ -112,7 +112,7 @@
 
     .mt-5.cont_1_2.pt-5.pb-5.row(style="position:relative;")
       .col-lg-7.mb-4.mb-lg-0(style="place-self:center;position:relative")
-        p(data-aos="fade-up") Cabe resaltar que los beneficios principales de las redes sociales para el #[strong marketing], son:
+        p(data-aos="fade-up") Cabe resaltar que los beneficios principales de las redes sociales para el #[strong #[em marketing]], son:
         ul.fa-ul.mt-5
           li.mb-2(data-aos="fade-up")
             i.fa.fa-li.fa-check(style="color:#FD9827;")
@@ -194,7 +194,7 @@
             .cont_image5.cont_image(v-show="cont_image5" style="position:relative;top:70%;")
               .p-4.cont_arrow(style="background-color:#F3F9FF;border-radius:15px;border:1px #81C0FF solid;position:relative")
                 h5 Chat - WhatsApp y demás
-                p.mt-3 No enviar mensajes virales y falsos, evitar el uso de escritura en mayúscula para garantizar asertividad en la comunicación, enviar mensajes en horarios funcionales, no enviar contenido que afecte la integridad de otras personas y no utilizar la red como herramienta de bullying.
+                p.mt-3 No enviar mensajes virales y falsos, evitar el uso de escritura en mayúscula para garantizar asertividad en la comunicación, enviar mensajes en horarios funcionales, no enviar contenido que afecte la integridad de otras personas y no utilizar la red como herramienta de #[em bullying].
 
       h5.mt-5(data-aos="fade-up") Dentro del conjunto general de reglas de la #[strong(style="color:#FD9827;") Netiqueta], las más básicas e importantes, son:
 
@@ -218,14 +218,32 @@
           i.fa.fa-li.fa-check(style="color:#FD9827;")
           | Promover el respeto por la intimidad y privacidad.
 
+      .tarjeta.color-primario.p-4.mt-5.cont_sintesis.col-lg-10.m-auto(style="position:relative")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1.text-center
+            img(src="@/assets/curso/tema1/28.png" data-aos="fade-right" style="max-width:90px;display:inline;")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h5.text-white(data-aos="fade-up") ¡Nota importante!
+                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                TarjetaAudio.color-secundario.mb-3(
+                  style="position:relative"
+                  texto=""
+                  :audio="require('@/assets/componentes/audios/netiqueta.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                )
+
+
+
     Separador.mt-5
 
     .titulo-segundo
-      h2#t_1_3 1.3   Marketing bibliotecario
+      h2#t_1_3 1.3   #[em Marketing] bibliotecario
 
-    p(data-aos="fade-up") En relación con lo dicho hasta este punto, la gestión que la biblioteca realiza, dirigida a identificar y retroalimentarse de las necesidades de datos de sus clientes para buscar estrategias y satisfacerlas, se llama #[strong(style="color:#FD9827;") marketing bibliotecario].
+    p(data-aos="fade-up") En relación con lo dicho hasta este punto, la gestión que la biblioteca realiza, dirigida a identificar y retroalimentarse de las necesidades de datos de sus clientes para buscar estrategias y satisfacerlas, se llama #[strong(style="color:#FD9827;") #[em marketing] bibliotecario].
 
-    h5.mt-5(data-aos="fade-up") Por medio del marketing bibliotecario, la biblioteca logra:
+    h5.mt-5(data-aos="fade-up") Por medio del #[em marketing] bibliotecario, la biblioteca logra:
 
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center")
@@ -264,7 +282,7 @@
             h5.text-center.text-center.text-white Transformación
             p.text-center.text-center.text-white Fomentar el pensamiento crítico y el conocimiento; promover cambios positivos.
 
-    h5.mt-5(data-aos="fade-up") Por tanto, la gestión del marketing bibliotecario está basado en:
+    h5.mt-5(data-aos="fade-up") Por tanto, la gestión del #[em marketing] bibliotecario está basado en:
 
     .cont_1_5.p-5.mt-5.row(style="position:relative")
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;position:relative")
@@ -317,14 +335,14 @@
 
     .row.cont_1_7.pb-5(style="position:relative")
       .col-lg-7.mb-4.mb-lg-0(style="position:relative")
-        p(data-aos="fade-up") Las personas que requieren datos para transformar la información en conocimiento buscan los recursos que las bibliotecas les aportan; por eso, es importante conocer cómo el marketing bibliotecario interactúa con los usuarios.
+        p(data-aos="fade-up") Las personas que requieren datos para transformar la información en conocimiento buscan los recursos que las bibliotecas les aportan; por eso, es importante conocer cómo el #[em marketing] bibliotecario interactúa con los usuarios.
         .cont_1_6.mt-5.p-4
           p.mb-0.ps-5(data-aos="fade-up") #[strong Tal gestión radica en promocionar los canales de comunicación,] servicios y actividades propias de la biblioteca, para dar una cobertura completa a la comunidad.
       .col-lg-5.mb-4.mb-lg-0(style="position:relative")
         figure
           img(src="@/assets/curso/tema1/26.png" data-aos="fade-left")
       .col-lg-7(style="position:relative")
-        h5.mt-5(data-aos="fade-up") Para una mayor comprensión del marketing y su interacción en las bibliotecas, se exponen algunos ejemplos, a saber:
+        h5.mt-5(data-aos="fade-up") Para una mayor comprensión del #[em marketing] y su interacción en las bibliotecas, se exponen algunos ejemplos, a saber:
         ul.fa-ul.mt-5
           li.mb-2(data-aos="fade-up")
             i.fa.fa-li.fa-check(style="color:#FD9827;")
@@ -362,7 +380,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h5.text-white(data-aos="fade-up") ¡Atención!
-                p.mb-0.text-white(data-aos="fade-up") El marketing bibliotecario es una gestión de dedicación y compromiso; existen diferentes maneras de hacerlo, todo depende de la comunidad a la que se quiere llegar y los objetivos propuestos por la biblioteca y su equipo de colaboradores.
+                p.mb-0.text-white(data-aos="fade-up") El #[em marketing] bibliotecario es una gestión de dedicación y compromiso; existen diferentes maneras de hacerlo, todo depende de la comunidad a la que se quiere llegar y los objetivos propuestos por la biblioteca y su equipo de colaboradores.
 
 
 

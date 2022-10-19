@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Verificación del servicio bibliotecario e informes',
     descripcionCurso:
-      'Con el estudio de este componente formativo, el aprendiz podrá reconocer la importancia del marketing digital en las redes sociales y fortalecerá sus habilidades para el servicio en bibliotecas -según los procesos y procedimientos establecidos-, la evaluación del servicio y la medición de la gestión, mediante el análisis de indicadores y presentación de informes.',
+      'Con el estudio de este componente formativo, el aprendiz podrá reconocer la importancia del <em>marketing</em> digital en las redes sociales y fortalecerá sus habilidades para el servicio en bibliotecas -según los procesos y procedimientos establecidos-, la evaluación del servicio y la medición de la gestión, mediante el análisis de indicadores y presentación de informes.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -41,7 +41,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Marketing en la red',
+        titulo: '<em>Marketing</em> en la red',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -59,7 +59,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Marketing bibliotecario',
+            titulo: '<em>Marketing</em> bibliotecario',
             hash: 't_1_3',
           },
           {
@@ -278,18 +278,18 @@ export default {
       },
       {
         nombre: 'Diego Villalobos Barreto',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro: 'Sena Distrito Capital Grupo De Apoyo Administrativo - Cgi',
       },
       {
         nombre: 'Fabián Leonardo Correa Díaz',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro:
           'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
       },
       {
         nombre: 'Carolina Coca Salazar',
-        cargo: 'Asesora Metodológica ',
+        cargo: 'Asesora metodológica ',
         centro: 'Centro de Diseño y metrología - Regional Distrito Capital',
       },
       {

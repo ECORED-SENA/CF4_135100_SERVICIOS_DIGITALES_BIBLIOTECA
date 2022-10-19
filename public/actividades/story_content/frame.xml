@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Didact Gothic" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Didact Gothic" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Didact Gothic" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Didact Gothic" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Didact Gothic" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -70,7 +70,7 @@
           <option name="search" value="false" />
           <option name="closed_captions" value="false">
             <options>
-              <option name="font" value="Didact Gothic" />
+              <option name="font" value="Open Sans" />
             </options>
           </option>
           <option name="settings" value="false" />
@@ -102,7 +102,6 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -126,7 +125,6 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -150,7 +148,6 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -174,7 +171,6 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -198,7 +194,6 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -1152,7 +1147,6 @@
       <string id="togglezoom">Alternar los modos de zoom</string>
       <string id="closedcaptions_shortcut">Activar/Desactivar accesibilidad del texto</string>
       <string id="previous_shortcut">Diapositiva anterior</string>
-      <string id="fullscreen_shortcut">Cambiar el modo de pantalla completa</string>
       <string id="submit_shortcut">Validar diapositiva</string>
       <string id="playpause_shortcut">Reproducir / pausar</string>
       <string id="next_shortcut">Siguiente diapositiva</string>
@@ -1180,25 +1174,7 @@
       <string id="acc_volume">volumen</string>
       <string id="keyboardshortcuts_lower">Atajos de teclado</string>
       <string id="zoom_to_fit">Habilitar zoom del navegador</string>
-      <string id="acc_enter_fullscreen">Ingresar en el modo de pantalla completa</string>
-      <string id="acc_exit_fullscreen">Salir del modo de pantalla completa</string>
       <string id="accessible_text">Texto accesible</string>
-      <string id="modern_video_captions_on">~øñ</string>
-      <string id="modern_video_captions_off">~øff</string>
-      <string id="modern_video_settings_close">~cløš~e ѵi~deo ~seţt~iñgs</string>
-      <string id="modern_video_playback_settings">~þlaý~bacķ~ šeţ~tiñg~s</string>
-      <string id="acc_modern_video_volume">~ѵide~ø vo~lüӎe</string>
-      <string id="acc_modern_video_fullscreen">~füll~šcře~eñ</string>
-      <string id="modern_video_normal_speed">~Nøřӎ~al</string>
-      <string id="acc_modern_video_playback_speed">~Plaý~bacķ~ šþe~ed</string>
-      <string id="modern_video_playback_speed_title">~Plaý~bacķ~ šþe~ed</string>
-      <string id="modern_video_captions_label">~caþţ~iøñš</string>
-      <string id="acc_modern_video_settings">~ѵide~ø še~ţtiñ~gs</string>
-      <string id="acc_modern_video_captions">~ѵide~ø ca~þţio~ñš</string>
-      <string id="acc_modern_video_pip">~Picţ~üře-~iñ-P~ictu~re</string>
-      <string id="acc_modern_video_pause">~þaüš~e ѵi~deø</string>
-      <string id="acc_modern_video_play">~þlaý~ ѵid~eø</string>
-      <string id="acc_modern_video_mute">~ӎüţe~ ѵid~eø</string>
       <string id="acc_definition">definición</string>
       <string id="definition">Definición</string>
       <string id="search_results">Resultados de la búsqueda</string>
@@ -1289,9 +1265,9 @@
     </string_table>
   </string_tables>
   <fonts>
-    <font name="Didact Gothic">
+    <font name="Open Sans">
       <files>
-        <file bold="false" italic="false" />
+        <file bold="true" italic="false" />
         <file bold="false" italic="false" />
       </files>
     </font>
@@ -1309,7 +1285,7 @@
             <slidelink slideid="_player.6g8RcXIVtvA.6pgX1xZSymS" displaytext="Las personas suelen buscar, por diversos fines, los recursos que las bibliotecas les aportan. Por eso, es importante conocer cómo el marketing bibliotecario interactúa con los usuarios." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5xwlqv81Hdx" displaytext="El propósito fundamental de las bibliotecas es brindar facilidad de acceso a la información en las comunidades impactadas." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5vMRJaK2Y1n" displaytext="Un proceso es un conjunto de actividades de gestión,&#xA;con entradas, transformación y salidas, para elaborar&#xA;o cambiar productos o servicios en la biblioteca. " expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6U7YSznK3di" displaytext="¿Qué es un Procedimiento?" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6U7YSznK3di" displaytext="¿Qué es un procedimiento?" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5kiyaOZIZQ4" displaytext="La aplicación de herramientas de recolección de datos, destinados a un análisis que permita generar estrategias y tomar decisiones se lleva a cabo en:" expand="false" type="slide" />
           </links>
         </slidelink>
