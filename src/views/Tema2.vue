@@ -213,6 +213,16 @@
             td.p-3(style="border:0;border-bottom:1px #D6CAC2 solid;background-color:#FFF3EA;font-weight:bold;") Acciones de mejora
             td.p-3(style="border:0;border-bottom:1px #D6CAC2 solid;background-color:#FFF3EA;") Crear en el mes de septiembre actividades de promoción como planes lectores y culturales para que la afluencia aumente y así las solicitudes de libros.
 
+    .tarjeta.color-primario.p-4.mt-5.cont_sintesis.col-lg-10.m-auto(style="position:relative")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1.text-center
+            img(src="@/assets/curso/tema1/28.png" data-aos="fade-right" style="max-width:90px;display:inline;")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h5.text-white(data-aos="fade-up") ¡Importante!
+                p.mb-0.text-white(data-aos="fade-up") Los indicadores de calidad se crean según las necesidades de la biblioteca y deben corresponder a los objetivos de las misma.
+
     Separador.mt-5
 
     .titulo-segundo
