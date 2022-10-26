@@ -52,11 +52,10 @@
             img(src="@/assets/curso/tema1/28.png" data-aos="fade-right" style="max-width:90px;display:inline;")
           .col
             .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
+              .col.mb-3.mb-sm-0(style="position:relative")
                 h5.text-white(data-aos="fade-up") ¡Tenga presente!
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                 TarjetaAudio.color-secundario.mb-3(
-                  style="position:relative"
                   texto=""
                   :audio="require('@/assets/componentes/audios/servicios_bibliotecarios.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
@@ -102,10 +101,10 @@
 
     .p-5.mt-5.cont_2_2(style="border-radius:25px;")
       .row
-        .col-lg-6(style="place-self:center;")
+        .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
           figure
             img(src="@/assets/curso/tema2/6.png" data-aos="fade-right")
-        .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
+        .col-lg-6(style="place-self:center;")
           SlyderA(tipo="b" style="background-color:#FFF7EF;border-radius:25px")
             .row.p-5
               h4 Procedimientos estratégicos
@@ -295,7 +294,7 @@
 
     p(data-aos="fade-up") Las bibliotecas, en su gestión de mejora continua, crean procesos y procedimientos para mitigar las fallas que se presentan en la prestación del servicio al usuario. Se da por hecho, entonces, que las acciones correctivas son toda la gestión que se hace, de forma inmediata, para eliminar una situación o falla que se genera en la prestación del servicio al usuario brindando solución a los requerimientos expuestos.
 
-    .cont_1_7.pb-5.mt-5.pt-5(style="position:relative")
+    .cont_2_7.pb-5.mt-5.pt-5(style="position:relative")
       h5(data-aos="fade-up" style="position:relative") Algunos ejemplos de situaciones que se pueden presentar y, en su momento, requieren una acción correctiva son:
       .row.col-lg-10.m-auto(style="position:relative")
         .col-lg-6.mb-4.mb-lg-0(style="position:relative;place-self:center")
@@ -322,7 +321,7 @@
               i.fa.fa-li.fa-check(style="color:#FD9827;")
               | Condiciones de infraestructura.
         .col-lg-4(style="position:relative;place-self:center")
-          figure
+          figure.col-6.m-auto
             img(src="@/assets/curso/tema2/21.png" data-aos="fade-left")
         .tarjeta.color-primario.p-4.mt-5.cont_sintesis.m-auto(style="position:relative")
           .row.justify-content-around.align-items-center
@@ -332,6 +331,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h5.text-white(data-aos="fade-up") ¡Recuerde!
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio2")
                   TarjetaAudio.color-secundario.mb-3(
                     style="position:relative"
                     texto=""
@@ -406,7 +406,7 @@ export default {
   font-size: 19px
   padding: 0.8rem 1rem
   border-radius: 147px
-.cont_1_7:before
+.cont_2_7:before
   content: ''
   position: absolute
   width: 115%

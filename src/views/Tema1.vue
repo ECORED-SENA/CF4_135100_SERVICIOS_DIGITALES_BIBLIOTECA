@@ -133,7 +133,7 @@
             i.fa.fa-li.fa-check(style="color:#FD9827;")
             | La promoción de productos y servicios, entre otros.
       .col-lg-3(style="place-self:center;position:relative")
-        figure
+        figure.col-6.m-auto
           img(src="@/assets/curso/tema1/6.png" data-aos="fade-left")
 
     Separador.mt-5
@@ -144,8 +144,13 @@
     .row
       .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
         p(data-aos="fade-up") Así como de forma presencial existe la etiqueta, que rige el actuar entre las personas frente a ciertas situaciones en sociedad, existe la netiqueta la cual aporta unos lineamientos para las formas de comportamiento, cuando se hace uso de las herramientas virtuales.
-        .p-5.cont_1_3
-          p(data-aos="fade-up") Comprendiendo lo anterior, se define netiqueta como el conjunto de reglas y la normatividad que rigen el comportamiento cuando se interactúa a través de la red: aplicaciones, redes sociales, aplicativos, plataformas, espacios de virtualidad y demás herramientas informáticas y digitales. 
+        .mt-4.row.m-0.pt-4.pb-4.pe-4.ps-0.ps-sm-4.ps-md-4.ps-lg-0(style="background-color:#EBC9B1;")
+          .col-auto.d-none.d-lg-block.p-0(style="place-self:center")
+            figure
+              img(src="@/assets/curso/tema1/29.png" data-aos="fade-right")
+          .col(style="place-self:center")
+            p.mb-0(data-aos="fade-up") Comprendiendo lo anterior, se define netiqueta como el conjunto de reglas y la normatividad que rigen el comportamiento cuando se interactúa a través de la red: aplicaciones, redes sociales, aplicativos, plataformas, espacios de virtualidad y demás herramientas informáticas y digitales.
+
       .col-lg-6(style="place-self:center")
         figure
           img(src="@/assets/curso/tema1/8.png" data-aos="fade-left")
@@ -155,7 +160,7 @@
     .cont_1_4.mt-5.pb-5(style="position:relative")
       .p-5.row.col-lg-10.m-auto(style="background-color:#FAFAFA;border-radius:20px;position:relative")
         .col-lg-5.mb-4.mb-lg-0.m-auto(style="place-self:center")
-          figure.text-center
+          figure.text-center.col-6.m-auto
             img(src="@/assets/curso/tema1/10.png" data-aos="fade-right" style="max-width:500px;display:inline;")
         .col-lg-7.row(style="place-self:center")
           .col-lg-2.mb-4.m-auto.indicador__container
@@ -289,44 +294,44 @@
         figure
           img(src="@/assets/curso/tema1/24.png" data-aos="fade-right" style="position:relative;right:-37%;z-index:1;")
       .col-lg-7(style="place-self:center")
-        .p-5.row(style="background-color:#FFECD6;border-radius:20px;position:relative")
+        .p-md-5.row.pt-5.pb-5(style="background-color:#FFECD6;border-radius:20px;position:relative")
           .col-lg-2
-          .tabla-a.color-acento-botones.col-lg-10.indicador__container
-            .indicador--hover(v-if="indicadorHover2")
+          .tabla-a.color-acento-botones.col-lg-10
             table(style="min-width:100%;")
               tbody(@mouseover="indicadorHover2 = false")
                 tr
                   td.p-2.pointer.font_weight_bold_hover.cont_table1(style="width:40%;border:0;border-left:1px #E8BE8F solid;border-bottom:1px #E8BE8F solid;" @mouseover="cont_description_table1 = true" @mouseleave="cont_description_table1 = false") Continuidad
                   td(style="border:0;")
-                    .p-3.cont_description_table1.bg-white(v-show="cont_description_table1" style="border-radius:20px;") La biblioteca planeará y ofrecerá servicios continuos, buscando la permanencia.
+                    .p-3.cont_description_table1.bg-white(v-show="cont_description_table1" style="border-radius:20px;word-break:break-word;") La biblioteca planeará y ofrecerá servicios continuos, buscando la permanencia.
                 tr
                   td.p-2.pointer.font_weight_bold_hover.cont_table2(style="border:0;border-left:1px #E8BE8F solid;border-bottom:1px #E8BE8F solid;" @mouseover="cont_description_table2 = true" @mouseleave="cont_description_table2 = false") Planeación
                   td(style="border:0;")
-                    .p-3.cont_description_table2.bg-white(v-show="cont_description_table2" style="border-radius:20px;") Tener una planeación enfocada en identificar necesidades y cómo resolverlas.
+                    .p-3.cont_description_table2.bg-white(v-show="cont_description_table2" style="border-radius:20px;word-break:break-word;") Tener una planeación enfocada en identificar necesidades y cómo resolverlas.
                 tr
-                  td.p-2.pointer.font_weight_bold_hover.cont_table3(style="border:0;border-left:1px #E8BE8F solid;border-bottom:1px #E8BE8F solid;" @mouseover="cont_description_table3 = true" @mouseleave="cont_description_table3 = false") Aportes
+                  td.p-2.pointer.font_weight_bold_hover.cont_table3.indicador__container(style="border:0;border-left:1px #E8BE8F solid;border-bottom:1px #E8BE8F solid;" @mouseover="cont_description_table3 = true" @mouseleave="cont_description_table3 = false") Aportes
+                    .indicador--hover(v-if="indicadorHover2")
                   td(style="border:0;")
-                    .p-3.cont_description_table3.bg-white(v-show="cont_description_table3" style="border-radius:20px;") dentificar la ubicación de la biblioteca y qué puede ofrecerle a la comunidad.
+                    .p-3.cont_description_table3.bg-white(v-show="cont_description_table3" style="border-radius:20px;word-break:break-word;") dentificar la ubicación de la biblioteca y qué puede ofrecerle a la comunidad.
                 tr
                   td.p-2.pointer.font_weight_bold_hover.cont_table4(style="border:0;border-left:1px #E8BE8F solid;border-bottom:1px #E8BE8F solid;" @mouseover="cont_description_table4 = true" @mouseleave="cont_description_table4 = false") Acercamiento
                   td(style="border:0;")
-                    .p-3.cont_description_table4.bg-white(v-show="cont_description_table4" style="border-radius:20px;") Conocer las tendencias, gustos, preferencias, cultura y demás para generar acercamiento e interés.
+                    .p-3.cont_description_table4.bg-white(v-show="cont_description_table4" style="border-radius:20px;word-break:break-word;") Conocer las tendencias, gustos, preferencias, cultura y demás para generar acercamiento e interés.
                 tr
                   td.p-2.pointer.font_weight_bold_hover.cont_table5(style="border:0;border-left:1px #E8BE8F solid;border-bottom:1px #E8BE8F solid;" @mouseover="cont_description_table5 = true" @mouseleave="cont_description_table5 = false") Motivación
                   td(style="border:0;")
-                    .p-3.cont_description_table5.bg-white(v-show="cont_description_table5" style="border-radius:20px;") Motivar y capacitar al personal que hace la ejecución de la planeación.
+                    .p-3.cont_description_table5.bg-white(v-show="cont_description_table5" style="border-radius:20px;word-break:break-word;") Motivar y capacitar al personal que hace la ejecución de la planeación.
                 tr
                   td.p-2.pointer.font_weight_bold_hover.cont_table6(style="border:0;border-left:1px #E8BE8F solid;border-bottom:1px #E8BE8F solid;" @mouseover="cont_description_table6 = true" @mouseleave="cont_description_table6 = false") Seguimiento
                   td(style="border:0;")
-                    .p-3.cont_description_table6.bg-white(v-show="cont_description_table6" style="border-radius:20px;") Es vital hacer una evaluación de los costos versus los beneficios.
+                    .p-3.cont_description_table6.bg-white(v-show="cont_description_table6" style="border-radius:20px;word-break:break-word;") Es vital hacer una evaluación de los costos versus los beneficios.
                 tr
                   td.p-2.pointer.font_weight_bold_hover.cont_table7(style="border:0;border-left:1px #E8BE8F solid;border-bottom:1px #E8BE8F solid;" @mouseover="cont_description_table7 = true" @mouseleave="cont_description_table7 = false") Articulación
                   td(style="border:0;")
-                    .p-3.cont_description_table7.bg-white(v-show="cont_description_table7" style="border-radius:20px;") Generar redes de apoyo entre las bibliotecas y entidades de formación.
+                    .p-3.cont_description_table7.bg-white(v-show="cont_description_table7" style="border-radius:20px;word-break:break-word;") Generar redes de apoyo entre las bibliotecas y entidades de formación.
                 tr
                   td.p-2.pointer.font_weight_bold_hover.cont_table8(style="border:0;border-left:1px #E8BE8F solid;" @mouseover="cont_description_table8 = true" @mouseleave="cont_description_table8 = false") Control
                   td(style="border:0;")
-                    .p-3.cont_description_table8.bg-white(v-show="cont_description_table8" style="border-radius:20px;") Evaluar el grado de satisfacción de los clientes internos y externos.
+                    .p-3.cont_description_table8.bg-white(v-show="cont_description_table8" style="border-radius:20px;word-break:break-word;") Evaluar el grado de satisfacción de los clientes internos y externos.
 
     Separador.mt-5
 
@@ -336,8 +341,12 @@
     .row.cont_1_7.pb-5(style="position:relative")
       .col-lg-7.mb-4.mb-lg-0(style="position:relative")
         p(data-aos="fade-up") Las personas que requieren datos para transformar la información en conocimiento buscan los recursos que las bibliotecas les aportan; por eso, es importante conocer cómo el #[em marketing] bibliotecario interactúa con los usuarios.
-        .cont_1_6.mt-5.p-4
-          p.mb-0.ps-5(data-aos="fade-up") #[strong Tal gestión radica en promocionar los canales de comunicación,] servicios y actividades propias de la biblioteca, para dar una cobertura completa a la comunidad.
+        .mt-4.row.m-0.pt-4.pb-4.pe-4.ps-0.ps-sm-4.ps-md-4.ps-lg-0(style="background-color:#EBC9B1;")
+          .col-auto.d-none.d-lg-block.p-0(style="place-self:center")
+            figure
+              img(src="@/assets/curso/tema2/13.png" data-aos="fade-right")
+          .col(style="place-self:center")
+            p.mb-0(data-aos="fade-up") #[strong Tal gestión radica en promocionar los canales de comunicación,] servicios y actividades propias de la biblioteca, para dar una cobertura completa a la comunidad.
       .col-lg-5.mb-4.mb-lg-0(style="position:relative")
         figure
           img(src="@/assets/curso/tema1/26.png" data-aos="fade-left")
@@ -407,6 +416,7 @@ export default {
     cont_description_table6: false,
     cont_description_table7: false,
     cont_description_table8: false,
+    mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -508,4 +518,7 @@ export default {
   background-size: cover
   background-repeat: no-repeat
   bottom: 0
+@media only screen and (max-width: 1200px)
+  .cont_1_5 .col-lg-5 img
+    right: 0 !important
 </style>

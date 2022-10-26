@@ -70,35 +70,35 @@
             .col-md-6.mb-4.mb-md-0(style="place-self:center")
               p #[strong Cuestionario:] es una herramienta que usan las bibliotecas para obtener datos cuantitativos desde calificar de 1 a 10 las instalaciones hasta medir el nivel de conocimiento que adquieren los usuarios.
             .col-md-4(style="place-self:center")
-              figure.text-center
+              figure.text-center.col-6.m-auto
                 img(src='@/assets/curso/tema3/10.png' style="max-width:180px;display:inline")
         .py-4.py-md-5(titulo="Entrevista" :icono="require('@/assets/curso/tema3/6.png')")
           .row.p-4
             .col-md-6.mb-4.mb-md-0(style="place-self:center")
               p #[strong Entrevista:] se hace mediante preguntas de carácter cualitativo que den respuesta a las necesidades de información de la biblioteca como su experiencia, servicio y demás.
             .col-md-4(style="place-self:center")
-              figure.text-center
+              figure.text-center.col-6.m-auto
                 img(src='@/assets/curso/tema3/11.png' style="max-width:180px;display:inline")
         .py-4.py-md-5(titulo="Observación" :icono="require('@/assets/curso/tema3/7.png')")
           .row.p-4
             .col-md-6.mb-4.mb-md-0(style="place-self:center")
               p #[strong Observación:] se basa desde mirar el entorno de la comunidad, sus hábitos, realidad, cultura, según la necesidad de información.
             .col-md-4(style="place-self:center")
-              figure.text-center
+              figure.text-center.col-6.m-auto
                 img(src='@/assets/curso/tema3/12.png' style="max-width:180px;display:inline")
         .py-4.py-md-5(titulo="Grupos focales" :icono="require('@/assets/curso/tema3/8.png')")
           .row.p-4
             .col-md-6.mb-4.mb-md-0(style="place-self:center")
               p #[strong Grupos focales:] se utiliza con frecuencia dentro de la comunidad como juntas de acción comunal, educativas, religiosas y demás.
             .col-md-4(style="place-self:center")
-              figure.text-center
+              figure.text-center.col-6.m-auto
                 img(src='@/assets/curso/tema3/13.png' style="max-width:180px;display:inline")
         .py-4.py-md-5(titulo="Comunidad en línea" :icono="require('@/assets/curso/tema3/9.png')")
           .row.p-4
             .col-md-6.mb-4.mb-md-0(style="place-self:center")
               p #[strong Comunidad en línea:] se toman por medio de las redes sociales y comunidades en la red.
             .col-md-4(style="place-self:center")
-              figure.text-center
+              figure.text-center.col-6.m-auto
                 img(src='@/assets/curso/tema3/14.png' style="max-width:180px;display:inline")
 
     h5.mt-5(data-aos="fade-up") Ahora, se debe prestar especial atención a los siguientes aspectos relacionados con la recolección de información:
@@ -337,4 +337,7 @@ export default {
   background-size: cover
   background-repeat: no-repeat
   bottom: 0
+@media screen and (max-width: 720px)
+  .slyder-a__bullets__item
+    margin: 0 4px !important
 </style>
