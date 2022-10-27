@@ -416,4 +416,9 @@ export default {
   background-size: cover
   background-repeat: no-repeat
   bottom: 0
+.indicador--hover, .indicador--click
+  left: 93%
+@media only screen and (max-width: 750px)
+  .indicador--hover, .indicador--click
+    left: 87%
 </style>

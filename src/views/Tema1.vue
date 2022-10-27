@@ -160,7 +160,7 @@
     .cont_1_4.mt-5.pb-5(style="position:relative")
       .p-5.row.col-lg-10.m-auto(style="background-color:#FAFAFA;border-radius:20px;position:relative")
         .col-lg-5.mb-4.mb-lg-0.m-auto(style="place-self:center")
-          figure.text-center.col-6.m-auto
+          figure.text-center.col-6.m-auto.col-lg-10
             img(src="@/assets/curso/tema1/10.png" data-aos="fade-right" style="max-width:500px;display:inline;")
         .col-lg-7.row(style="place-self:center")
           .col-lg-2.mb-4.m-auto.indicador__container
@@ -521,4 +521,9 @@ export default {
 @media only screen and (max-width: 1200px)
   .cont_1_5 .col-lg-5 img
     right: 0 !important
+.indicador--hover, .indicador--click
+  left: 93%
+@media only screen and (max-width: 750px)
+  .indicador--hover, .indicador--click
+    left: 87%
 </style>
