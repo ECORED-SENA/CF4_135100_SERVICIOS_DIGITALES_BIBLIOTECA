@@ -63,7 +63,7 @@
 
 
     .cont_3_2.mt-5.pb-5.pt-5(style="position:relative")
-      h5(data-aos="fade-up" style="position:relative") En el siguiente esquema se exponen las principales herramientas de recolección de datos que se usan en la biblioteca.
+      h5(data-aos="fade-up" style="position:relative") En el siguiente recurso se exponen las principales herramientas de recolección de datos que se usan en la biblioteca.
       TabsB.color-secundario.mt-5.bg-white(style="position:relative")
         .py-4.py-md-5(titulo="Cuestionario" :icono="require('@/assets/curso/tema3/5.png')")
           .row.p-4
@@ -238,7 +238,7 @@
           | #[strong Herramientas:] identificar el medio o herramienta para la elaboración del informe.
         li.mb-2(data-aos="fade-up")
           i.fa.fa-li.fa-check(style="color:#FFBA5B;") 
-          | #[strong Termínologia:] acorde al lector, establecer qué tipo de lenguaje se utilizará, si técnico o científico con el fin de garantizar su comprensión.
+          | #[strong Terminología:] acorde al lector, establecer qué tipo de lenguaje se utilizará, si técnico o científico con el fin de garantizar su comprensión.
         li.mb-2(data-aos="fade-up")
           i.fa.fa-li.fa-check(style="color:#FFBA5B;") 
           | #[strong Empatía:] redactar el contenido de forma estratégica que permita que el lector se apropie del mismo y se sienta parte de él.

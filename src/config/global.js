@@ -174,9 +174,9 @@ export default {
   },
   complementario: [
     {
-      tema: '<em>Marketing</em> en la red',
+      tema: '<em>Marketing</em> digital',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2021). Marketing en la red. [Video]. YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA (2021). <em>Marketing</em> digital. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Vukk_lp4dO8 ',
     },
@@ -251,7 +251,7 @@ export default {
     },
     {
       referencia:
-        'Davara, Y. (1994). Estrategias de comunicación en marketing. Dossat 2000.',
+        'Davara, Y. (1994). Estrategias de comunicación en <em>marketing</em>. Dossat 2000.',
       link: '',
     },
     {

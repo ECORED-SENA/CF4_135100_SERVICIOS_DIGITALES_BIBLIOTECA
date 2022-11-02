@@ -151,7 +151,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h5.text-white(data-aos="fade-up") ¿Qué es un indicador de calidad?
-              p.mt-3.text-white(data-aos="fade-up") Un indicador de calidad es una herramienta de medición cuantitativa que permite valorar, de forma cualitativa, el grado de cumplimiento de un objetivo o meta especifica en la biblioteca.
+              p.mt-3.text-white(data-aos="fade-up") Un indicador de calidad es una herramienta de medición cuantitativa que permite valorar, de forma cualitativa, el grado de cumplimiento de un objetivo o meta específica en la biblioteca.
 
 
     .col-lg-10.m-auto.mt-4.cont_2_3.p-5
@@ -178,7 +178,7 @@
     p.mt-5(data-aos="fade-up") En la tabla que se muestra a continuación, se expresa el indicador de préstamos de libros; se sugiere dar atención a los aspectos clave y llevar nota de lo más destacado en una libreta personal de apuntes:
 
     .titulo-sexto.color-primario.mt-5
-      h5 Tabla 4.
+      h5 Tabla 2.
       span  Ejemplo de indicador de calidad en un proceso de la biblioteca
 
 
@@ -249,7 +249,7 @@
             .col-8.m-auto.text-center
               img(src='@/assets/curso/tema2/14.png')
           h5.text-center.text-center.text-white Internet
-          p.text-center.text-center.text-white servicio por medio de conexión wifi para consulta de información, trabajos y demás necesidades.
+          p.text-center.text-center.text-white Servicio por medio de conexión wifi para consulta de información, trabajos y demás necesidades.
         .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas
           .row.justify-content-center.mb-3
             .col-8.m-auto.text-center
@@ -267,7 +267,7 @@
             .col-8.m-auto.text-center
               img(src='@/assets/curso/tema2/17.png')
           h5.text-center.text-center.text-white Portafolios en línea y préstamos de equipos
-          p.text-center.text-center.text-white Con los primeros, el usuario puede consultar los servicios de la biblioteca mientras que, con los segundos, puede consultar libros electrónicos
+          p.text-center.text-center.text-white Con los primeros, el usuario puede consultar los servicios de la biblioteca mientras que, con los segundos, puede consultar libros electrónicos.
         .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas
           .row.justify-content-center.mb-3
             .col-8.m-auto.text-center

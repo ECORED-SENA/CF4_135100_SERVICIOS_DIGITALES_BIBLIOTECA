@@ -41,13 +41,13 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h5.text-white(data-aos="fade-up") ¿ Para qué sirven ?
-              p.mb-0.text-white.mt-3(data-aos="fade-up") Las redes sociales son un instrumento en el #[em marketing] digital, que sirve para la promoción de las empresas, sus productos o servicios. Es por ello que se requiere conocerlas y estar familiarizados con ellas..
+              h5.text-white(data-aos="fade-up") ¿Para qué sirven?
+              p.mb-0.text-white.mt-3(data-aos="fade-up") Las redes sociales son un instrumento en el #[em marketing] digital, que sirve para la promoción de las empresas, sus productos o servicios. Es por ello que se requiere conocerlas y estar familiarizados con ellas.
 
     p.mt-5(data-aos="fade-up") En la siguiente tabla, se exponen las redes sociales más comunes y frecuentemente utilizadas; se invita a conocer más sobre sus usos en el #[em marketing].
 
     .titulo-sexto.color-primario.mt-5
-      h5 Figura 1.
+      h5 Tabla 1.
       span  Redes sociales y su uso en #[em marketing] digital
 
     .tabla-a.color-acento-botones.mt-5.col-lg-10.m-auto
@@ -311,7 +311,7 @@
                   td.p-2.pointer.font_weight_bold_hover.cont_table3.indicador__container(style="border:0;border-left:1px #E8BE8F solid;border-bottom:1px #E8BE8F solid;" @mouseover="cont_description_table3 = true" @mouseleave="cont_description_table3 = false") Aportes
                     .indicador--hover(v-if="indicadorHover2")
                   td(style="border:0;")
-                    .p-3.cont_description_table3.bg-white(v-show="cont_description_table3" style="border-radius:20px;word-break:break-word;") dentificar la ubicación de la biblioteca y qué puede ofrecerle a la comunidad.
+                    .p-3.cont_description_table3.bg-white(v-show="cont_description_table3" style="border-radius:20px;word-break:break-word;") Identificar la ubicación de la biblioteca y qué puede ofrecerle a la comunidad.
                 tr
                   td.p-2.pointer.font_weight_bold_hover.cont_table4(style="border:0;border-left:1px #E8BE8F solid;border-bottom:1px #E8BE8F solid;" @mouseover="cont_description_table4 = true" @mouseleave="cont_description_table4 = false") Acercamiento
                   td(style="border:0;")

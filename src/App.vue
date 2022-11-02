@@ -67,4 +67,6 @@ export default {
   color: #12263F !important
 .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
   padding-bottom: 0px !important
+.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
+  color: #12263F !important
 </style>
