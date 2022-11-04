@@ -286,6 +286,19 @@
               img(src='@/assets/curso/tema2/20.png')
           h5.text-center.text-center.text-white Aplicaciones
           p.text-center.text-center.text-white Se usan para gestionar de forma personalizada transferencias de los servicios desde cualquier dispositivo móvil.
+        .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas
+          .row.justify-content-center.mb-3
+            .col-8.m-auto.text-center
+              img(src='@/assets/curso/tema2/22.svg')
+          h5.text-center.text-center.text-white Biblioteca digital
+          p.text-center.text-center.text-white Se utiliza para prestar los servicios de la entidad en línea, ya sea consulta de libros, noticias, revistas, publicaciones, bases de información, capacitación, asesoría, actividades culturales como clubes de lectura y demás funciones que ofrezca la biblioteca.
+        .tarjeta.color-acento-botones.pt-5.pb-5.ps-4.pe-4.cont_tarjetas
+          .row.justify-content-center.mb-3
+            .col-8.m-auto.text-center
+              img(src='@/assets/curso/tema2/23.svg')
+          h5.text-center.text-center.text-white Canales digitales
+          p.text-center.text-center.text-white Se utilizan como medio de comunicación con el usuario, ya sea por redes sociales o aplicativos.
+
 
     Separador.mt-5
 

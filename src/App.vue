@@ -69,4 +69,12 @@ export default {
   padding-bottom: 0px !important
 .banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
   color: #12263F !important
+.slyder-f
+  .horizontal-scroll
+    display: flex !important
+    align-items: stretch !important
+    height: 100%
+    .slyder-f__slyde
+      display: flex
+      align-items: stretch
 </style>
